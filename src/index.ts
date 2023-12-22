@@ -36,7 +36,7 @@ export const execute = async () => {
   let traderKeypair = Keypair.fromSecretKey(new Uint8Array(privateKeyArray));
 
   const marketPubkey = new PublicKey(
-    "4DoNfFBfF7UokCC2FQzriy7yHK6DY6NVdYpuekQ5pRgg"
+    "Ccy8A8zLqCzfaLm9XbFcMQrDx9Jqb2nnaUkWfghxsuTg"
   );
   const endpoint = "https: //api.mainnet-beta.solana.com";
   const connection = new Connection(endpoint);
